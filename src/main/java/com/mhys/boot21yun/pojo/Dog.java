@@ -1,0 +1,11 @@
+package com.mhys.boot21yun.pojo;
+
+import lombok.Data;
+
+@Data
+public class Dog {
+
+    private String name;
+    private int age;
+
+}

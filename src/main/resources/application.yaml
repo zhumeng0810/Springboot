@@ -1,0 +1,20 @@
+server:
+  port: 8088
+spring:
+  profiles:
+    active: prod
+
+person:
+  last-name: zhangsan
+  age: 20
+  maps: { k1: v1,k2: v2 }
+  boss: true
+  list:
+    - lisi
+    - wangwu
+    - zhaoliu
+  dog:
+    name: 旺财
+    age: 2
+
+
